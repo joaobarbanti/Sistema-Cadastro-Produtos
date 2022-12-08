@@ -24,7 +24,7 @@
 
 ## Instalação 😀 
 
-#### Clone o Projeto Com: git clone github.com/JoaoRicardo2005/cadastrodeprodutos-frontend </br>
+#### Clone o Projeto Com: git clone github.com/JoaoRicardo2005/cadastrodeprodutos-backend </br>
 
 #### Entre na pasta e instale as dependências com: 
  Yarn
