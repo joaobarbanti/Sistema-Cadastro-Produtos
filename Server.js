@@ -11,7 +11,14 @@ app.use("/", router)
 
 mongoose.set('strictQuery', false);
 
-mongoose.connect(process.env.MONGO_URL)
+mongoose.connect(
+  process.env.MONGO_URL, 
+    {
+  
+  useNewUrlParser: true, 
+  useUnifiedTopology: true
+      
+  })
 
   
   const db = mongoose.connection
